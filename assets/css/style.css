@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&display=swap');
 
 body{
-    padding: 30px;
+    margin: 30px;
     font-family: 'Geologica', sans-serif;
+    border: 1.5px solid rgb(55, 55, 239)
 }
 
 #logo{
@@ -23,6 +24,8 @@ h1{
     color: white;
     padding-left: 30px;
     font-weight: 700;
+    vertical-align: top;
+    padding-top: 45px;
 }
 
 #logo span{
@@ -62,6 +65,8 @@ label{
 input{
     width: 80%;
     height: 30px;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 form{
@@ -89,7 +94,7 @@ button{
     width: 500px;
     height: 100px;
     margin: auto;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(55, 55, 239);
     padding: 20px;
     background-color: lightgoldenrodyellow;
     margin-bottom: 15px;
