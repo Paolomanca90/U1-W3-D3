@@ -14,13 +14,14 @@ taskForm.addEventListener('submit', function(e) {
     const savedTask = document.getElementById('new-task')
     savedTask.appendChild(taskCard)
 
-    const check = document.querySelectorAll('.task-card input')
-    check.forEach((c) =>{
-        c.addEventListener('click', function(e){
-           
+    // const check = document.querySelectorAll('.task-card input')
+    // check.forEach((c) =>{
+    //     c.addEventListener('click', function(e){
+    //         let checkClickd = e.target
+    //         let pChecked
             
-        })
-    })
+    //     })
+    // })
 
     const buttons = document.querySelectorAll('.task-card button')
     buttons.forEach((b) =>{
