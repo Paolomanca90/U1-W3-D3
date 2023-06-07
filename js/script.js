@@ -17,7 +17,11 @@ taskForm.addEventListener('submit', function(e) {
     const check = document.querySelectorAll('.task-card input')
     check.forEach((c) =>{
         c.addEventListener('click', function(e){
-            c.parentElement.querySelector('p').classList.toggle('done')
+            if(c.parentElement.querySelector('p').classList.contains('done') === true ){
+                c.parentElement.querySelector('p').classList.remove('done')
+            }else{
+                  c.parentElement.querySelector('p').classList.add('done')
+                }
         })
     })
 
