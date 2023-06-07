@@ -86,29 +86,31 @@ button{
 }
 
 .task-card{
-    width: 300px;
+    width: 500px;
     height: 100px;
     margin: auto;
     border: 1.5px solid black;
     padding: 20px;
     background-color: lightgoldenrodyellow;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .task-card p{
     display: inline-block;
     padding: 10px;
     font-size: 1.7em;
+    width: 90%;
+    margin: auto;
 }
 .task-card input{
-    width: 30%;
+    width: 15%;
 }
 
-.new-task{
+#new-task{
     padding: 15px;
 }
 
 section{
     background-color: aliceblue;
-    padding-bottom: 20px;
 }
